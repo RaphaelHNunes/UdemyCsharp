@@ -1,4 +1,4 @@
-﻿// TIPOS DE DADOS/VALOR
+﻿// TIPOS DE DADOS VALOR
 bool completo = false;// VARIAVEL QUE RECEBE SOMENTE DOIS TIPOS DE VALOR
 char genero = 'F';
 char letra = '\u0041'; //CODIGO ENCONTRADO NA TABELA UNICODE. 
@@ -8,12 +8,11 @@ int n3 = 2147483647;
 long n4 = 2147483647L; //# 
 float n5 = 4.5f;
 double n6 = 4.5;
+int n7 = int.MaxValue; //comando utilizado para saber o maximo que uma string pode receber.
+
+//TIPOS DE DADOS REFERENCIA
 string nome = "Maria Green";
 object obj1 = "Alex Brown";
-obj1 = n1;
-int n7 = int.MaxValue; //comando utilizado para saber o maximo que uma string pode receber. 
-
-
 
 Console.WriteLine(completo);
 Console.WriteLine(genero);
