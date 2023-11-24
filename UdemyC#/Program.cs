@@ -30,6 +30,8 @@
 
 // Placeholders, concatenação e interpolação 
 
+using System.Globalization;
+
 int idade = 32;
 double saldo = 10.4587;
 string nomes = "João";
@@ -38,6 +40,7 @@ string nomes = "João";
 Console.WriteLine("{0} tem {1} anos e tem saldo igual a {2:F2} reais", nomes, idade, saldo);
 
 //no exemplo abaixo, foi ultilizado a tecnica de interpolação:
-Console.WriteLine($"{nomes} tem {idade} anos e tem saldo igual a {saldo} reais");
+Console.WriteLine($"{nomes} tem {idade} anos e tem saldo igual a {saldo:F2} reais");
 
-Console.WriteLine(nomes + " tem "+ idade + " anos e tem saldo igual a " + saldo + " reais ");
+//No exemplo abaixo, foi ultilizado a tecnica de concatenação: 
+Console.WriteLine(nomes + " tem " + idade + " anos e tem saldo igual a " + saldo.ToString("F2", CultureInfo.InvariantCulture) + " reais ");
