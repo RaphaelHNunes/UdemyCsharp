@@ -30,17 +30,47 @@
 
 // Placeholders, concatenação e interpolação 
 
-using System.Globalization;
+//using System.Globalization;
 
-int idade = 32;
-double saldo = 10.4587;
-string nomes = "João";
+//int idade = 32;
+//double saldo = 10.4587;
+//string nomes = "João";
 
-//Foi utilizado o metodo Placeholders no exemplo a baixo : 
-Console.WriteLine("{0} tem {1} anos e tem saldo igual a {2:F2} reais", nomes, idade, saldo);
+////Foi utilizado o metodo Placeholders no exemplo a baixo : 
+//Console.WriteLine("{0} tem {1} anos e tem saldo igual a {2:F2} reais", nomes, idade, saldo);
 
-//no exemplo abaixo, foi ultilizado a tecnica de interpolação:
-Console.WriteLine($"{nomes} tem {idade} anos e tem saldo igual a {saldo:F2} reais");
+////no exemplo abaixo, foi ultilizado a tecnica de interpolação:
+//Console.WriteLine($"{nomes} tem {idade} anos e tem saldo igual a {saldo:F2} reais");
 
-//No exemplo abaixo, foi ultilizado a tecnica de concatenação: 
-Console.WriteLine(nomes + " tem " + idade + " anos e tem saldo igual a " + saldo.ToString("F2", CultureInfo.InvariantCulture) + " reais ");
+////No exemplo abaixo, foi ultilizado a tecnica de concatenação: 
+//Console.WriteLine(nomes + " tem " + idade + " anos e tem saldo igual a " + saldo.ToString("F2", CultureInfo.InvariantCulture) + " reais ");
+
+//ENTRADA DE DADOS EM C#
+
+// SPLIT : Uma função que recorta a string compondo oque esta em aspas simples. 
+
+//string[] s = Console.ReadLine().Split(' ');
+//string p1 = s[0];
+//string p2 = s[1];
+//string p3 = s[2];
+
+//Console.WriteLine(p1);
+//Console.WriteLine(p2);  
+//Console.WriteLine(p3);
+
+int n1 = int.Parse(Console.ReadLine());
+char ch = char.Parse(Console.ReadLine());
+float n2 = float.Parse(Console.ReadLine());
+
+Console.WriteLine(n1);
+Console.WriteLine(ch);  
+Console.WriteLine(n2);
+
+//string nome = Console.ReadLine();
+//char sexo = char.Parse(Console.ReadLine());
+//int idade = int.Parse(Console.ReadLine());
+//double altura = double.Parse(Console.ReadLine());
+//Console.Write(nome);
+//Console.Write(sexo);
+//Console.Write(idade);
+//Console.Write(altura); 
