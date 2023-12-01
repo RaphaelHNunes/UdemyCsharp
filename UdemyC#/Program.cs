@@ -48,6 +48,7 @@
 //ENTRADA DE DADOS EM C#
 
 // SPLIT : Uma função que recorta a string compondo oque esta em aspas simples. 
+//VET: ESTRUTURA QUE CONTEM VARIOS DADOS. 
 
 //string[] s = Console.ReadLine().Split(' ');
 //string p1 = s[0];
@@ -58,13 +59,26 @@
 //Console.WriteLine(p2);  
 //Console.WriteLine(p3);
 
-int n1 = int.Parse(Console.ReadLine());
-char ch = char.Parse(Console.ReadLine());
-float n2 = float.Parse(Console.ReadLine());
+using System.Globalization;
 
-Console.WriteLine(n1);
-Console.WriteLine(ch);  
-Console.WriteLine(n2);
+//int n1 = int.Parse(Console.ReadLine());
+//char ch = char.Parse(Console.ReadLine());
+//float n2 = float.Parse(Console.ReadLine());
+//Console.WriteLine(n1);
+//Console.WriteLine(ch);
+//Console.WriteLine(n2);
+
+//string[] inf = Console.ReadLine().Split(' ');
+//string nome= inf[0];
+//char sexo = char.Parse(inf[1]);
+//int idade = int.Parse(inf[2]);
+//double altura = double.Parse(inf[3], CultureInfo.InvariantCulture);
+//Console.WriteLine(nome);    
+//Console.WriteLine(sexo);
+//Console.WriteLine(altura);
+//Console.WriteLine(idade); 
+
+
 
 //string nome = Console.ReadLine();
 //char sexo = char.Parse(Console.ReadLine());
