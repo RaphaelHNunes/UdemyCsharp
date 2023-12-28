@@ -69,22 +69,66 @@ using System.Globalization;
 //Console.WriteLine(n2);
 
 //string[] inf = Console.ReadLine().Split(' ');
-//string nome= inf[0];
+//string nome = inf[0];
 //char sexo = char.Parse(inf[1]);
 //int idade = int.Parse(inf[2]);
 //double altura = double.Parse(inf[3], CultureInfo.InvariantCulture);
-//Console.WriteLine(nome);    
+//Console.WriteLine(nome);
 //Console.WriteLine(sexo);
 //Console.WriteLine(altura);
-//Console.WriteLine(idade); 
+//Console.WriteLine(idade);
 
+//---------------------------------------------------------------------------------------------------------------------------
 
+//Console.WriteLine("Digite três numeros: ");
+//int n1 = int.Parse(Console.ReadLine());
+//int n2 = int.Parse(Console.ReadLine());
+//int n3 = int.Parse(Console.ReadLine());
 
-//string nome = Console.ReadLine();
-//char sexo = char.Parse(Console.ReadLine());
-//int idade = int.Parse(Console.ReadLine());
-//double altura = double.Parse(Console.ReadLine());
-//Console.Write(nome);
-//Console.Write(sexo);
-//Console.Write(idade);
-//Console.Write(altura); 
+//if (n1 > n2 && n1 > n3)
+//{
+//    Console.WriteLine("Maior = " + n1);
+//}
+//else if (n2 > n3)
+//{
+//    Console.WriteLine("Maior = " + n2);
+//}
+//else
+//{
+//    Console.WriteLine("Maior = " + n3);
+//}
+
+//----------------------------------------------------------------------------------------------------------------------
+
+//Console.Write("Digite um numero:");
+//double n1 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+//while (n1 >= 0.0)
+//{
+//double raiz = Math.Sqrt(n1);
+//Console.WriteLine(raiz.ToString("F3", CultureInfo.InvariantCulture));
+//    Console.Write("Digite outro numero:");
+//    n1 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+//}
+//Console.WriteLine("NUMERO NEGATIVO");
+
+//-----------------------------------------------------------------------------------------------------------------------
+
+//Console.Write("Quantos numeros inteiros voce vai somar? ");
+//int r = int
+//    .Parse(Console.ReadLine());
+
+//int soma = 0;
+//for (int i = 1; i <= r; i++)
+//{
+//    Console.Write("Valor #{0}: ", i);
+//    int valor = int
+//        .Parse(Console
+//        .ReadLine());
+//    soma = soma + valor; // ou soma += valor
+//}
+//Console.WriteLine("Soma = " + soma );
+
+//Nesta atividade foi criada um exemplo de estrutura FOR
+
+//------------------------------------------------------------------------------------------------------------------------
+
